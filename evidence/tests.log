@@ -1,0 +1,10 @@
+test_actual_loopback_statuses (test_service.SiteTests.test_actual_loopback_statuses) ... ok
+test_cross_case_or_unknown_actor_denied (test_service.SiteTests.test_cross_case_or_unknown_actor_denied) ... ok
+test_missing_and_expired_policy_fail_closed (test_service.SiteTests.test_missing_and_expired_policy_fail_closed) ... ok
+test_revoked_or_restored_epoch_fail_closed (test_service.SiteTests.test_revoked_or_restored_epoch_fail_closed) ... ok
+test_valid_local_case (test_service.SiteTests.test_valid_local_case) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.523s
+
+OK

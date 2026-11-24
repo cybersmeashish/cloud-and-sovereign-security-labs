@@ -1,0 +1,50 @@
+{
+  "scope": "actual loopback HTTP exchanges under synthetic policy/time/actor inputs; central unavailability is a fixture condition, not a provider outage",
+  "http_cases": 7,
+  "rows": [
+    {
+      "scenario": "valid_local_policy",
+      "http_status": 200,
+      "result": "SYN case-A record",
+      "central_available": false
+    },
+    {
+      "scenario": "cross_case",
+      "http_status": 403,
+      "result": "case_boundary",
+      "central_available": false
+    },
+    {
+      "scenario": "missing_policy",
+      "http_status": 503,
+      "result": "no_local_policy",
+      "central_available": false
+    },
+    {
+      "scenario": "expired_policy",
+      "http_status": 503,
+      "result": "expired_or_invalid_policy_time",
+      "central_available": false
+    },
+    {
+      "scenario": "revoked_epoch",
+      "http_status": 503,
+      "result": "policy_epoch_mismatch",
+      "central_available": false
+    },
+    {
+      "scenario": "old_restore",
+      "http_status": 503,
+      "result": "policy_epoch_mismatch",
+      "central_available": false
+    },
+    {
+      "scenario": "unknown_actor",
+      "http_status": 403,
+      "result": "unrecognised_synthetic_actor",
+      "central_available": false
+    }
+  ],
+  "real_identity_integration": false,
+  "provider_deployment": false
+}

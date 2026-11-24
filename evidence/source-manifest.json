@@ -1,0 +1,17 @@
+{
+  ".gitignore": "c5da61d8697ccd4dad4014069b94ed2a9cd5765cd0ea80676f5eda3548d32225",
+  "AGENTS.md": "73a37afa4e3d38aac45e2b2d13fbbc0e90504e53bc915733be5980b5713f08bb",
+  "CITATION.cff": "a5fd7786be538e094ce00d757340c980d176999cfd9299e726d7b87a9e39a78c",
+  "CONTRIBUTING.md": "74c4b771625c1b0712702cc9641f2e6a571b065cceaad28b11e80afe71044fb9",
+  "CONTRIBUTIONS.md": "5af8847846cbfa6a8dc5e533ae47fc99222a8cfdea2f1d86fd01d972f221f167",
+  "LICENSE": "4df23e737915f9b62c5430b633e6b74104f5c9f9f154cc93e9fe89318f84b5b0",
+  "README.md": "97737fe48acb6928ae6c58980dbc02f9d0e31774a0e84dd6b60935c7bfe9a810",
+  "SECURITY.md": "25e8da3dd7d659597d57199598ad955a03107b26d33c8e05ebb318816e0a02bd",
+  "contributions/001-isolated-site-policy.md": "adec2d635430ae73e8ebbf7cafba55ff22db186104e4f627dd0acca72ffd4cb1",
+  "fixtures/contribution.json": "bbf7e7ab807ddd82965a52d896483c2fbce9a850c08cca8b2fddb7766a75fe9b",
+  "tests/test_service.py": "4eeb8af8eb595c0a33866d2afc970be765be277939d552c258310eb9d15afb30",
+  "tools/README.md": "dcc105a76d082c5a5b3af8c719019237ce0c7a19ceef235b63cca14ba7d9ab8e",
+  "tools/experiment.py": "fe03f07747c88743e6dc3433236995b246a57e9b46dc0671c29b4b70f6f743be",
+  "tools/site_service.py": "423b2b66889f7f66e7ddae628cb2eeaf279da6f9d4e255577e0ff4dc8e60b27d",
+  "tools/verify.py": "befa930dd988f221c071e0fb63714bd512bc0aa559e49d06a79dccf88eb922c7"
+}

@@ -1,0 +1,40 @@
+{
+  "executed_at_utc": "2026-11-24T06:56:10.986501+00:00",
+  "runtime": {
+    "python": "3.12.16",
+    "system": "Linux",
+    "machine": "aarch64"
+  },
+  "unique_regression_tests": 5,
+  "source_manifest_files": 15,
+  "local_links_checked": 11,
+  "isolation": {
+    "requested": true,
+    "probe": "blocked",
+    "errno": 101,
+    "exception": "OSError",
+    "interfaces": [
+      "lo"
+    ],
+    "default_ipv4_route": false,
+    "root_read_only": true,
+    "workspace_read_only": true,
+    "uid": 1000
+  },
+  "contribution": {
+    "slug": "cloud-and-sovereign-security-labs",
+    "area": "Cloud and sovereign-security labs",
+    "title": "Isolated-site service: policy expiry and dependency failure",
+    "contribution": "contributions/001-isolated-site-policy.md",
+    "stage": "Actual local HTTP/isolation experiment; no cloud-provider deployment",
+    "topics": [
+      "cloud-security",
+      "sovereign-cloud",
+      "disconnected-systems",
+      "resilience"
+    ],
+    "description": "Cloud and sovereign-security labs: Isolated-site service: policy expiry and dependency failure. Actual local HTTP/isolation experiment; no cloud-provider deployment."
+  },
+  "experiment_scope": "actual loopback HTTP exchanges under synthetic policy/time/actor inputs; central unavailability is a fixture condition, not a provider outage",
+  "stage": "local contribution evidence; no customer or vendor outcome claim"
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "cloud-and-sovereign-security-labs",
+  "area": "Cloud and sovereign-security labs",
+  "title": "Isolated-site service: policy expiry and dependency failure",
+  "contribution": "contributions/001-isolated-site-policy.md",
+  "stage": "Actual local HTTP/isolation experiment; no cloud-provider deployment",
+  "topics": [
+    "cloud-security",
+    "sovereign-cloud",
+    "disconnected-systems",
+    "resilience"
+  ],
+  "description": "Cloud and sovereign-security labs: Isolated-site service: policy expiry and dependency failure. Actual local HTTP/isolation experiment; no cloud-provider deployment."
+}
